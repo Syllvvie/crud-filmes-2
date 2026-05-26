@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 26/05/2026 às 02:25
+-- Tempo de geração: 26/05/2026 às 02:37
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.0.30
 
@@ -45,7 +45,8 @@ INSERT INTO `filmes` (`id`, `titulo`, `genero`) VALUES
 (3, 'O Poderoso Chefão', 'Crime'),
 (4, 'A Origem', 'Ficção Científica'),
 (5, 'Toy Story', 'Animação'),
-(6, 'Carros 2', 'Animação');
+(6, 'Carros 2', 'Animação'),
+(7, 'Carros 3', 'Animação');
 
 --
 -- Índices para tabelas despejadas
@@ -65,7 +66,7 @@ ALTER TABLE `filmes`
 -- AUTO_INCREMENT de tabela `filmes`
 --
 ALTER TABLE `filmes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
